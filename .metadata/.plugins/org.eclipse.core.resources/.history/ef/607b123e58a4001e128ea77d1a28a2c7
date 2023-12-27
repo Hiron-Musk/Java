@@ -1,0 +1,14 @@
+package sub3;
+/*
+ * 날짜 : 2023/12/27
+ * 이름 : 남가희
+ * 내용 : Java 조건문 for 실습하기
+ */
+public class ForTest {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
