@@ -10,7 +10,7 @@ public class ArrayTest {
 	public static void main(String[] args) {
 		
 		//배열
-		int[] arr1= {1,2,3,4,5};
+		int[] arr1= {1,2,3,4,5,6};
 		char[] arr2= {'A','B','C'};
 		String[] arr3= {"서울","대전","대구","부산","광주"};
 		
@@ -94,6 +94,7 @@ public class ArrayTest {
 		System.out.println(arr3d[1][2][1]);
 		System.out.println(arr3d[2][2][0]);
 		
+		//3중반복문(잘 사용안함)
 		for(int i=0;i<3;i++) {
 			for(int j=0;j<3;j++) {
 				for(int k=0;k<3;k++) {
