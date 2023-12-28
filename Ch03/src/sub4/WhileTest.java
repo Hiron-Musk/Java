@@ -58,7 +58,7 @@ public class WhileTest {
 		//continue
 		
 		int total=0;
-		int n=1;
+		int n=1; //0부터 아님?
 		while(n<=10) {
 			n++;
 			if(n%2==1) {
