@@ -7,16 +7,16 @@ public class Test03 {
 		int num=1;
 		int result=0;
 		
-		result=num++;
+		result=num++;//result 1
 		System.out.println("result: "+result);
 		
-		result=++num;
+		result=++num; //result 3
 		System.out.println("result: "+result);
 		
-		result=num--;
+		result=num--; //result 3
 		System.out.println("result: "+result);
 		
-		result=--num;
+		result=--num; //result 1
 		System.out.println("result: "+result);
 		
 

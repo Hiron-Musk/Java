@@ -6,13 +6,13 @@ public class Test09 {
 		
 		int count=0;
 		
-		for(int i=0;i<=9;i++) {
-			if(i<5) {
+		for(int i=1;i<=9;i++) {
+			if(i<=5) {
 				count++;
 				
 			}else {//count가 6
 
-				count-=1;
+				count--;
 				
 			}
 			
