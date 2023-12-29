@@ -12,7 +12,6 @@ public class Test09 {
 				
 			}else {//count가 6
 
-//				System.out.print(count);
 				count-=1;
 				
 			}
