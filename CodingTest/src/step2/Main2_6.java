@@ -11,22 +11,28 @@ public class Main2_6 {
 		int m=sc.nextInt();//분
 		int x=sc.nextInt();//요리소요시간
 		
-		
-		int xh,xm=0;
-		xh=x/60;//0
-		xm=x%60;//
-
-		h=h+xh;//23
-		m=xm+m;//48
-		
-		if(m==60) {
+		//분 조건
+		if(m+x>60) {
+			h=h+(m+x)/60;
+			m=(m+x)%60;
+			
+		}else if(m+x<60) {
+			m=m+x;
+			
+		}else {
 			h++;
 			m=0;
+		}
+		//시 조건
+		if(h>24) {
+			h=h-24;
+			
+		} else if(h==24) {
+			h=0;
 		}
 		
 		System.out.printf("%d %d",h,m);
 		
-		//다시하기
 
 	}
 
