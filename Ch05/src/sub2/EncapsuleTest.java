@@ -28,10 +28,15 @@ public class EncapsuleTest {
 		sonata.setColor("회색");
 		sonata.show();
 		
+		
+		
 		// Account 객체 생성 및 초기화
 		Account kb=new Account("국민은행","123-123","김유신",10000);
 		   
-		
+//		kb.bank="국민은행";
+//		kb.id="123-1234";
+//		kb.name="김유신";
+//		kb.balance=10000;
 		
 		kb.deposit(80000);
 		kb.withdraw(7000);
