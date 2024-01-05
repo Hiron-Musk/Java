@@ -16,7 +16,7 @@ class Adder{
 		
 	public void add(int x, int y) {
 		this.x=x;
-		y++;
+		this.y++;
 	}
 		
 	public void add(int[] arr) {

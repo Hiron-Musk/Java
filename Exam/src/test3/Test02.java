@@ -5,7 +5,7 @@ class King{
 	private int year;
 	
 	public King(int year) {
-		this("정조");
+		this("정조");//문자열 하나를 매개변수로 받는 생성자 호출
 		this.year=year;	
 	}
 	
