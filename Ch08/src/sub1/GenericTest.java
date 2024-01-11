@@ -1,4 +1,9 @@
 package sub1;
+/*
+ * 날짜 : 2024/01/10
+ * 이름 : 김철학
+ * 내용 : Java 제네릭 실습하기
+ */
 
 public class GenericTest {
 	public static void main(String[] args) {

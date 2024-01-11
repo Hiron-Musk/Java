@@ -7,7 +7,7 @@ import sub1.Apple;
 
 /*
  * 날짜 : 2024/01/10
- * 이름: 남가희
+ * 이름 : 남가희
  * 내용 : Java ArrayList 실습하기
  */
 
