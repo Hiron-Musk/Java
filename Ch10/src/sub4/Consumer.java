@@ -16,11 +16,6 @@ public class Consumer extends Thread{
 			
 			store.consume();
 			
-//			try {
-//				sleep(500);
-//			} catch (InterruptedException e) {
-//				e.printStackTrace();
-//			}
 			
 		}
 

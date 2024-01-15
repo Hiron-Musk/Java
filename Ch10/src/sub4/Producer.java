@@ -15,11 +15,6 @@ private Store store;
 			
 			store.produce();
 			
-//			try {
-//				sleep(1000);
-//			} catch (InterruptedException e) {
-//				e.printStackTrace();
-//			}
 			
 		}
 
