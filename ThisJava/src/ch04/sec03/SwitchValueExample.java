@@ -23,6 +23,7 @@ public class SwitchValueExample {
 		case "A"->100;
 		case "B"->{
 			int result=100-20;
+			//자바 13부터 가능
 			yield result;
 		}
 		default->60;
