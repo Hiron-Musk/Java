@@ -12,6 +12,7 @@ public class DBHelper {
 	protected Connection conn=null;
 	protected Statement stmt=null;
 	protected PreparedStatement psmt=null;
+	protected PreparedStatement psmtEtc=null;
 	protected ResultSet rs=null;
 	
 	//DB 정보
@@ -35,6 +36,9 @@ public class DBHelper {
 		}
 		
 		if(psmt != null) {
+			psmt.close();
+		}
+		if(psmtEtc != null) {
 			psmt.close();
 		}
 		
