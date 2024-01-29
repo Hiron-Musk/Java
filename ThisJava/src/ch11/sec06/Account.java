@@ -10,7 +10,7 @@ public class Account {
 	}
 	
 	public void deopsit(int money) {
-		balance+=balance;
+		balance+=money;
 	}
 	public void witdraw(int money)throws InsufficientException{
 		if(balance<money) {

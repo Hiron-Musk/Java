@@ -5,7 +5,6 @@ public class Consumer extends Thread{
 	private Store store;
 	
 	public Consumer(Store store) {
-		super();
 		this.store = store;
 	}
 
